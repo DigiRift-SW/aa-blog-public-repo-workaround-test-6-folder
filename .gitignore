@@ -1,32 +1,21 @@
-# Dependencies
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.venv
-venv/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
+build
+dist / media
+node_modules
 .DS_Store
-Thumbs.db
+.env
+.next
+.vercel
 
-# Logs
-*.log
-logs/
+# Payload default media upload directory
+public/media/
 
-# Build outputs
-dist/
-build/
-*.egg-info/
+public/robots.txt
+public/sitemap*.xml
 
-# Temporary files
-*.tmp
-*.temp
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
